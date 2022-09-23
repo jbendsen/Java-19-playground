@@ -57,7 +57,10 @@ final class NegExpr implements Expr {
 
 
 public class SealedInterfaceExample {
+
+
     public static void main(String[] args) {
+        //build up the following expression: -((1 + 2) * (3 - 4))
         Expr e1 = new PlusExpr(new ConstantExpr(1), new ConstantExpr(2));
         Expr e2 = new TimesExpr(new ConstantExpr(4), new ConstantExpr(8));
         Expr e3 = new PlusExpr(e1, e2);

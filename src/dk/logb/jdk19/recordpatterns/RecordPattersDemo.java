@@ -6,6 +6,7 @@ enum Color { RED, GREEN, BLUE }
 record ColoredPoint(Point p, Color c) {}
 record Rectangle(ColoredPoint upperLeft, ColoredPoint lowerRight) {}
 
+
 public class RecordPattersDemo {
 
 

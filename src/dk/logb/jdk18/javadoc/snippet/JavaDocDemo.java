@@ -2,6 +2,9 @@ package dk.logb.jdk18.javadoc.snippet;
 
 import java.util.Optional;
 
+//src$ /usr/lib/jvm/jdk-19/bin/javadoc --snippet-path ./snippet-files -d doc dk.logb.jdk18.javadoc.snippet
+
+
 public class JavaDocDemo {
     public static void main(String[] args) {
         System.out.println(add(1, 2));
@@ -13,7 +16,7 @@ public class JavaDocDemo {
     /**
      * The following code shows how to use {@code JavaDocDemo.add(int, int)}.
      * {@snippet :
-     * int i = add(1, 2)
+     * int i = add(1, 2);
      * assert i == 3;
      * }
      */

@@ -5,8 +5,8 @@ import jdk.incubator.vector.FloatVector;
 import jdk.incubator.vector.IntVector;
 import jdk.incubator.vector.VectorSpecies;
 
-// /etc/java-19-openjdk/bin/javac --enable-preview --release 19 --add-modules jdk.incubator.vector ./src/dk/logb/jdk18/vector/VectorDemo.java
-// /etc/java-19-openjdk/bin/java --enable-preview  --add-modules jdk.incubator.vector -cp ./src dk.logb.jdk18.vector.VectorDemo
+// /usr/lib/jvm/jdk-19/bin/javac --enable-preview --release 19 --add-modules jdk.incubator.vector ./src/dk/logb/jdk18/vector/VectorDemo.java
+// /usr/lib/jvm/jdk-19/bin/java --enable-preview  --add-modules jdk.incubator.vector -cp ./src dk.logb.jdk18.vector.VectorDemo
 
 
 public class VectorDemo {

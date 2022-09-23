@@ -1,4 +1,3 @@
-package dk.logb.jdk18.javadoc.snippet;
 
 import java.util.Optional;
 

@@ -18,7 +18,7 @@ public class ThreadDemo {
         }  // executor.close() is called implicitly, and waits
 
         var end = System.currentTimeMillis();
-        System.out.println("Time in ms (virtual): " + (end - start));
+        System.out.println("Time in ms (VirtualThreadPerTaskExecutor): " + (end - start));
 
         start = System.currentTimeMillis();
 
@@ -31,9 +31,8 @@ public class ThreadDemo {
             });
         }
 
-
         end = System.currentTimeMillis();
-        System.out.println("Time in ms (fixed): " + (end - start));
+        System.out.println("Time in ms (CachedThreadPool): " + (end - start));
 
 
     }
